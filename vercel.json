@@ -9,5 +9,11 @@
     "api/router.go": {
       "memory": 128
     }
-  }
+  },
+  "crons": [
+    {
+      "path": "/api/cron",
+      "schedule": "* * * * *"
+    }
+  ]
 }
